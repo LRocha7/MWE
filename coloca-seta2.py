@@ -1,6 +1,6 @@
 
 def leark():
-    arq = open('teste @P.txt','r',)
+    arq = open('polilexPRP@X.txt','r',)
     lk=[]
     arq = arq.read()
     arq = arq.split('$.')
@@ -24,9 +24,9 @@ for elem in lk:
 #print(lk2)
 
 lk2='\n'.join(lk2)
-#print(lk2)
+print(lk2)
 
-arq = open('testePRP@X-seta.txt','w',)
+arq = open('polilexPRP@X-seta.txt','w',)
 arq.write(lk2)
 arq.close()              
 
