@@ -10,7 +10,7 @@ def leark():
     return lk
 
 lk=leark()
-print(lk)
+#print(lk)
 X=[]
 lk2=[]
 for i in lk:
@@ -19,7 +19,7 @@ for i in lk:
             X.append(el+1)
             i[el] = i[el] + '0'
         if '@Y' in i[el]:
-            lk2.append(el+1)
+            X.append(el+1)
             i[el] = i[el] + 'he'
         else:
             if '@X' and '@Y' in i:
@@ -28,10 +28,8 @@ for i in lk:
 #print(lk2)
 
 lk3='\n'.join(lk2[0])
-#print(lk3)
-'''
+print(lk3)
+
 arq = open('polilexPRP@X-seta0.txt','w',)
 arq.write(lk3)
 arq.close()
-'''
-
