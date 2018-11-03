@@ -1,6 +1,6 @@
 
 def leark():
-    arq = open('testePRP@X-seta.txt','r',)
+    arq = open('polilexPRP@X-seta.txt','r',)
     lk=[]
     arq = arq.read()
     arq = arq.split('$.')
@@ -25,18 +25,13 @@ for i in lk:
             if '@X' and '@Y' in i:
                 i[el]= i[el]+'hi'
     lk2.append(i)
-print(lk2)
-'''
-lk4=[]
-for i in lk2:
-    lk3=' '.join(lk2)
-    lk4.append(lk3)
-print(lk4)
-'''
-#lk4='\n$.'.join(lk2)
+#print(lk2)
 
-arq = open('testeP@X0.txt','w',)
-arq.write(lk2)
+lk3='\n'.join(lk2[0])
+#print(lk3)
+'''
+arq = open('polilexPRP@X-seta0.txt','w',)
+arq.write(lk3)
 arq.close()
-
+'''
 
